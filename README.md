@@ -13,7 +13,7 @@ git clone --recursive https://github.com/mabaiocchi/Swift_Config_Wrapper.git
 cd Swift_Config_Wrapper
 ./setup_swift
 cd op-build
-. op-build-env && ./op-build swift_defconfig && ./op-build
+. op-build-env && op-build swift_defconfig && op-build
 ```
 
 
